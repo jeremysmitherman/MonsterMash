@@ -50,15 +50,17 @@ func (l *Library) Stop() {
 
 func (l *Library) GetClientStatus() interface{} {
 	return struct {
-		Status string `json:"status"`
+		Status  string `json:"status"`
+		Message string `json:"status_message"`
 	}{
-		Status: l.client.Status,
+		Status:  l.client.Status,
+		Message: l.client.StatusMessage,
 	}
 }
 
 func (l *Library) GetCurrentEncounter() FlattenedEncounter {
 	if l.loadedEncounter != nil {
-		fe := FlattenedEncounter{}
+		fe := FlattenedEncounter{EncounterID: l.loadedEncounter.EncounterID, Monsters: []FlattenedEnemy{}}
 		for _, m := range []*Enemy{
 			l.loadedEncounter.Monster1Data,
 			l.loadedEncounter.Monster2Data,
@@ -75,9 +77,11 @@ func (l *Library) GetCurrentEncounter() FlattenedEncounter {
 			}
 		}
 
+		log.Println(fe)
 		return fe
 	} else {
-		return FlattenedEncounter{}
+		fe := FlattenedEncounter{EncounterID: -1, Monsters: []FlattenedEnemy{}}
+		return fe
 	}
 }
 

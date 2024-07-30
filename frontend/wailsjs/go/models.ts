@@ -77,6 +77,7 @@ export namespace reference {
 	    }
 	}
 	export class FlattenedEncounter {
+	    encounter_id: number;
 	    monsters: FlattenedEnemy[];
 	
 	    static createFrom(source: any = {}) {
@@ -85,6 +86,7 @@ export namespace reference {
 	
 	    constructor(source: any = {}) {
 	        if ('string' === typeof source) source = JSON.parse(source);
+	        this.encounter_id = source["encounter_id"];
 	        this.monsters = this.convertValues(source["monsters"], FlattenedEnemy);
 	    }
 	
