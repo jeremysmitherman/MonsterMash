@@ -16,6 +16,7 @@ var CommandAddr string = "127.0.0.1:55355"
 type Client struct {
 	ConnectionState network.ConnectionState
 	Status          string
+	StatusMessage   string
 }
 
 func (c *Client) ListenAndServe(encounter chan uint16, exitRequested chan interface{}, finished chan interface{}) {
@@ -55,7 +56,8 @@ func (c *Client) ListenAndServe(encounter chan uint16, exitRequested chan interf
 			_, err = conn.Write([]byte("READ_CORE_RAM 11E0 1"))
 			if err != nil {
 				c.ConnectionState = network.ERROR
-				c.Status = "Error Writing to EMU: " + err.Error()
+				c.Status = "Error Writing to EMU"
+				c.StatusMessage = err.Error()
 				break
 			}
 
@@ -65,7 +67,8 @@ func (c *Client) ListenAndServe(encounter chan uint16, exitRequested chan interf
 			data, err := bufio.NewReader(conn).ReadString('\n')
 			if err != nil {
 				c.ConnectionState = network.ERROR
-				c.Status = "No EMU Connection: " + err.Error()
+				c.Status = "No emulator connection"
+				c.StatusMessage = err.Error()
 				break
 			}
 
@@ -73,7 +76,8 @@ func (c *Client) ListenAndServe(encounter chan uint16, exitRequested chan interf
 			encounterString := strings.TrimSpace(strings.Replace(data, "READ_CORE_RAM 11e0 ", "", -1))
 			encounterIndex, err := strconv.ParseInt(encounterString, 16, 16)
 			if err != nil {
-				c.Status = "Error Parsing Response from EMU: " + err.Error()
+				c.Status = "Error Parsing Response from EMU"
+				c.StatusMessage = err.Error()
 				log.Println(err)
 				continue
 			}

@@ -182,7 +182,8 @@ func (f *FlattenedEnemy) Init(e *Enemy, l *Library) {
 }
 
 type FlattenedEncounter struct {
-	Monsters []FlattenedEnemy `json:"monsters"`
+	EncounterID int              `json:"encounter_id"`
+	Monsters    []FlattenedEnemy `json:"monsters"`
 }
 
 type Encounter struct {

@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EncounterTable from "./EncounterTable.jsx";
 import './App.css'
+import EncounterTable from "./EncounterTable.jsx";
+
 
 function App() {
     return (
