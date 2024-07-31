@@ -1,4 +1,4 @@
-package reference
+package ff6library
 
 import "testing"
 

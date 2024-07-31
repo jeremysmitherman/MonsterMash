@@ -1,7 +1,5 @@
 package network
 
-import "os"
-
 type ConnectionState uint8
 
 const (
@@ -13,5 +11,5 @@ const (
 )
 
 type Communicator interface {
-	Listen(chan os.Signal)
+	ListenAndServe(dataChannel chan []uint16, exitRequested chan interface{}, finished chan interface{})
 }

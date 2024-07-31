@@ -1,0 +1,4064 @@
+-
+    spellName: \blackFire
+    spellDescription: Fire-elemental attack
+    mpCost: 4
+    spellPower: 21
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Failed!!
+    targeting: 97
+    flags: 10240
+    element: 1
+    status12: 0
+    status34: 0
+-
+    spellName: \blackIce
+    spellDescription: Ice-elemental attack
+    mpCost: 5
+    spellPower: 22
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Doesn’t have anything!
+    targeting: 97
+    flags: 10240
+    element: 2
+    status12: 0
+    status34: 0
+-
+    spellName: \blackBolt
+    spellDescription: Lightning-elemental attack
+    mpCost: 6
+    spellPower: 20
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Couldn’t steal!!
+    targeting: 97
+    flags: 10240
+    element: 4
+    status12: 0
+    status34: 0
+-
+    spellName: \blackPoison
+    spellDescription: Poisons an enemy
+    mpCost: 3
+    spellPower: 25
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: 'Stole \string[0x01] × 1 !'
+    targeting: 65
+    flags: 10248
+    element: 8
+    status12: 4
+    status34: 0
+-
+    spellName: \blackDrain
+    spellDescription: Drains HP from an enemy
+    mpCost: 15
+    spellPower: 38
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Can’t control!!
+    targeting: 65
+    flags: 141832
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \blackFire 2
+    spellDescription: Fire-elemental attack
+    mpCost: 20
+    spellPower: 60
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Can’t dive!!
+    targeting: 97
+    flags: 10240
+    element: 1
+    status12: 0
+    status34: 0
+-
+    spellName: \blackIce 2
+    spellDescription: Ice-elemental attack
+    mpCost: 21
+    spellPower: 62
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Stumbled!!
+    targeting: 97
+    flags: 10240
+    element: 2
+    status12: 0
+    status34: 0
+-
+    spellName: \blackBolt 2
+    spellDescription: Lightning-elemental attack
+    mpCost: 22
+    spellPower: 61
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Mugu mugu?
+    targeting: 97
+    flags: 10240
+    element: 4
+    status12: 0
+    status34: 0
+-
+    spellName: \blackBio
+    spellDescription: Poison-elemental attack
+    mpCost: 26
+    spellPower: 53
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: No money!!
+    targeting: 97
+    flags: 10248
+    element: 8
+    status12: 4
+    status34: 0
+-
+    spellName: \blackFire 3
+    spellDescription: Fire-elemental attack
+    mpCost: 51
+    spellPower: 121
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Can’t run away!!
+    targeting: 97
+    flags: 10240
+    element: 1
+    status12: 0
+    status34: 0
+-
+    spellName: \blackIce 3
+    spellDescription: Ice-elemental attack
+    mpCost: 52
+    spellPower: 122
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Can’t escape!!
+    targeting: 97
+    flags: 10240
+    element: 2
+    status12: 0
+    status34: 0
+-
+    spellName: \blackBolt 3
+    spellDescription: Lightning-elemental attack
+    mpCost: 53
+    spellPower: 120
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Now weak against fire!
+    targeting: 97
+    flags: 10240
+    element: 4
+    status12: 0
+    status34: 0
+-
+    spellName: \blackBreak
+    spellDescription: Turns an enemy to stone
+    mpCost: 25
+    spellPower: 0
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: Now weak against ice!
+    targeting: 65
+    flags: 1058818
+    element: 0
+    status12: 64
+    status34: 0
+-
+    spellName: \blackDoom
+    spellDescription: Dispatches an enemy
+    mpCost: 35
+    spellPower: 0
+    hitRate: 95
+    specialEffect: 53
+    statusBlock: true
+    showMessage: false
+    attackMessage: Now weak against thunder!
+    targeting: 65
+    flags: 1058818
+    element: 0
+    status12: 128
+    status34: 0
+-
+    spellName: \blackPearl
+    spellDescription: Pearl-elemental attack
+    mpCost: 40
+    spellPower: 108
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Now weak against poison!
+    targeting: 65
+    flags: 10240
+    element: 32
+    status12: 0
+    status34: 0
+-
+    spellName: \blackFlare
+    spellDescription: Barrier-piercing attack
+    mpCost: 45
+    spellPower: 60
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Now weak against wind!
+    targeting: 65
+    flags: 10272
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \blackDemi
+    spellDescription: Cuts an enemy’s HP in half
+    mpCost: 33
+    spellPower: 8
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Now weak against pearl power!
+    targeting: 67
+    flags: 9448002
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \blackQuartr
+    spellDescription: Cuts an enemy’s HP by 3/4
+    mpCost: 48
+    spellPower: 12
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Now weak against earth power!
+    targeting: 110
+    flags: 9448002
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \blackX-Zone
+    spellDescription: Sends an enemy into the X-Zone
+    mpCost: 53
+    spellPower: 0
+    hitRate: 85
+    specialEffect: 35
+    statusBlock: true
+    showMessage: false
+    attackMessage: Now weak against water!
+    targeting: 106
+    flags: 1059330
+    element: 0
+    status12: 128
+    status34: 0
+-
+    spellName: \blackMeteor
+    spellDescription: Damages multiple enemies
+    mpCost: 62
+    spellPower: 36
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: 'Move, and you’re dust!'
+    targeting: 110
+    flags: 2105952
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \blackUltima
+    spellDescription: Damages multiple enemies
+    mpCost: 80
+    spellPower: 150
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Can’t possess!!
+    targeting: 110
+    flags: 2107936
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \blackQuake
+    spellDescription: Unfocused Earth-elemental\nattack
+    mpCost: 50
+    spellPower: 111
+    hitRate: 150
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: Weak against fire
+    targeting: 4
+    flags: 2097712
+    element: 64
+    status12: 0
+    status34: 0
+-
+    spellName: \blackW Wind
+    spellDescription: Unfocused near-fatal attack
+    mpCost: 75
+    spellPower: 15
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Weak against ice
+    targeting: 4
+    flags: 9437778
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \blackMerton
+    spellDescription: Unfocused piercing fire attack
+    mpCost: 85
+    spellPower: 138
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Weak against lightning
+    targeting: 4
+    flags: 2097712
+    element: 17
+    status12: 0
+    status34: 0
+-
+    spellName: \effectScan
+    spellDescription: Displays an enemy’s HP/weak\npoint
+    mpCost: 3
+    spellPower: 0
+    hitRate: 222
+    specialEffect: 16
+    statusBlock: false
+    showMessage: false
+    attackMessage: Weak against poison
+    targeting: 65
+    flags: 2048
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \effectSlow
+    spellDescription: Slows battle speed
+    mpCost: 5
+    spellPower: 0
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: Weak against wind
+    targeting: 65
+    flags: 2048
+    element: 0
+    status12: 0
+    status34: 4
+-
+    spellName: \effectRasp
+    spellDescription: Damages MP
+    mpCost: 12
+    spellPower: 10
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Weak against pearl
+    targeting: 65
+    flags: 43016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \effectMute
+    spellDescription: Silences target
+    mpCost: 8
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: Weak against earth
+    targeting: 65
+    flags: 2048
+    element: 0
+    status12: 2048
+    status34: 0
+-
+    spellName: \effectSafe
+    spellDescription: Raises defense
+    mpCost: 12
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Weak against water
+    targeting: 1
+    flags: 2099200
+    element: 0
+    status12: 0
+    status34: 64
+-
+    spellName: \effectSleep
+    spellDescription: Puts target to sleep
+    mpCost: 5
+    spellPower: 0
+    hitRate: 111
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: 'Better off \string[0x01]!'
+    targeting: 65
+    flags: 2048
+    element: 0
+    status12: 32768
+    status34: 0
+-
+    spellName: \effectMuddle
+    spellDescription: Confuses target
+    mpCost: 8
+    spellPower: 0
+    hitRate: 94
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: '\string[0x01] was crushed!'
+    targeting: 65
+    flags: 2048
+    element: 0
+    status12: 8192
+    status34: 0
+-
+    spellName: \effectHaste
+    spellDescription: Raises battle speed
+    mpCost: 10
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Can’t sketch!!
+    targeting: 1
+    flags: 2099200
+    element: 0
+    status12: 0
+    status34: 8
+-
+    spellName: \effectStop
+    spellDescription: Stops an enemy
+    mpCost: 10
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: 'Got \string[0x01] × 1\key'
+    targeting: 65
+    flags: 2048
+    element: 0
+    status12: 0
+    status34: 16
+-
+    spellName: \effectBserk
+    spellDescription: Casts Berserk on target
+    mpCost: 16
+    spellPower: 0
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: 'Got \string[0x01] × \var1\key'
+    targeting: 1
+    flags: 2048
+    element: 0
+    status12: 4096
+    status34: 0
+-
+    spellName: \effectFloat
+    spellDescription: Makes target float
+    mpCost: 17
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Preemptive attack
+    targeting: 33
+    flags: 2099968
+    element: 0
+    status12: 0
+    status34: 32768
+-
+    spellName: \effectImp
+    spellDescription: Changes to/from “Imp”
+    mpCost: 10
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: Back attack
+    targeting: 65
+    flags: 526592
+    element: 0
+    status12: 32
+    status34: 0
+-
+    spellName: \effectRflect
+    spellDescription: Casts a magic barrier on target
+    mpCost: 22
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Side attack
+    targeting: 1
+    flags: 2099200
+    element: 0
+    status12: 0
+    status34: 128
+-
+    spellName: \effectShell
+    spellDescription: Raises magic defense
+    mpCost: 15
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Pincer attack
+    targeting: 1
+    flags: 2099200
+    element: 0
+    status12: 0
+    status34: 32
+-
+    spellName: \effectVanish
+    spellDescription: Renders target invisible
+    mpCost: 18
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Got \var1 GP
+    targeting: 1
+    flags: 2624000
+    element: 0
+    status12: 16
+    status34: 0
+-
+    spellName: \effectHaste2
+    spellDescription: Speeds up entire party
+    mpCost: 38
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Got \var0 Exp. point(s)\key
+    targeting: 41
+    flags: 2099200
+    element: 0
+    status12: 0
+    status34: 8
+-
+    spellName: \effectSlow 2
+    spellDescription: Slows multiple enemies
+    mpCost: 26
+    spellPower: 0
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: Need MP
+    targeting: 105
+    flags: 2048
+    element: 0
+    status12: 0
+    status34: 4
+-
+    spellName: \effectOsmose
+    spellDescription: Absorbs MP from an enemy
+    mpCost: 1
+    spellPower: 26
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Annihilated\key
+    targeting: 65
+    flags: 174600
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \effectWarp
+    spellDescription: Escape from dungeons/battles
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 24
+    statusBlock: false
+    showMessage: false
+    attackMessage: Dispelled curse on shield\key
+    targeting: 0
+    flags: 2102032
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \effectQuick
+    spellDescription: Allows double commands
+    mpCost: 99
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 67
+    statusBlock: false
+    showMessage: false
+    attackMessage: Level was halved!!
+    targeting: 2
+    flags: 2101760
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \effectDispel
+    spellDescription: Maintains poor status
+    mpCost: 25
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Can’t probe target!
+    targeting: 65
+    flags: 2362112
+    element: 0
+    status12: 5136
+    status34: 34046
+-
+    spellName: \whiteCure
+    spellDescription: Recovers HP
+    mpCost: 5
+    spellPower: 10
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: 'Learned \string[0x02]\key'
+    targeting: 33
+    flags: 2165032
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \whiteCure 2
+    spellDescription: Recovers HP
+    mpCost: 25
+    spellPower: 28
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: '\string[0x00] gained a level\key'
+    targeting: 33
+    flags: 2165032
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \whiteCure 3
+    spellDescription: Recovers HP
+    mpCost: 40
+    spellPower: 66
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: No weakness
+    targeting: 33
+    flags: 2165032
+    element: 0
+    status12: 0
+    status34: 0
+-
+    spellName: \whiteLife
+    spellDescription: Recovers life
+    mpCost: 30
+    spellPower: 2
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: HP \var0/\var1
+    targeting: 1
+    flags: 10816300
+    element: 0
+    status12: 128
+    status34: 8192
+-
+    spellName: \whiteLife 2
+    spellDescription: Restores life and HP/MP
+    mpCost: 60
+    spellPower: 16
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: MP \var0/\var1
+    targeting: 1
+    flags: 10816300
+    element: 0
+    status12: 128
+    status34: 8192
+-
+    spellName: \whiteAntdot
+    spellDescription: Cures poisoning
+    mpCost: 3
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: '\string[0x00] learned \string[0x02]\key'
+    targeting: 3
+    flags: 2362112
+    element: 0
+    status12: 16388
+    status34: 0
+-
+    spellName: \whiteRemedy
+    spellDescription: Cures status ailments
+    mpCost: 15
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Devised a new Blitz!\key
+    targeting: 3
+    flags: 2362112
+    element: 0
+    status12: 59461
+    status34: 20
+-
+    spellName: \whiteRegen
+    spellDescription: Gradually recovers HP
+    mpCost: 10
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Level \var0
+    targeting: 3
+    flags: 2099208
+    element: 0
+    status12: 0
+    status34: 2
+-
+    spellName: \whiteLife 3
+    spellDescription: Protects from wound
+    mpCost: 50
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Got \var0 Magic Point(s)\key
+    targeting: 3
+    flags: 2099712
+    element: 0
+    status12: 0
+    status34: 1024
+-
+    esperAttackName: Bolt Fist
+    esperAttackDescription: Lightning-elemental attack
+    mpCost: 25
+    spellPower: 50
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Banon fell…
+    targeting: 110
+    flags: 2097792
+    element: 4
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Inferno
+    esperAttackDescription: Fire-elemental attack
+    mpCost: 26
+    spellPower: 51
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Fire-element ineffectual
+    targeting: 110
+    flags: 2097792
+    element: 1
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Gem Dust
+    esperAttackDescription: Ice-elemental attack
+    mpCost: 27
+    spellPower: 52
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Ice-element ineffectual
+    targeting: 110
+    flags: 2097792
+    element: 2
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Hope Song
+    esperAttackDescription: Silences enemies
+    mpCost: 16
+    spellPower: 0
+    hitRate: 136
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Lightning-element ineffectual
+    targeting: 110
+    flags: 640
+    element: 0
+    status12: 2048
+    status34: 0
+-
+    esperAttackName: Earth Aura
+    esperAttackDescription: Earth-elemental attack
+    mpCost: 40
+    spellPower: 93
+    hitRate: 150
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: Poison-element ineffectual
+    targeting: 110
+    flags: 2097792
+    element: 64
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Demon Eye
+    esperAttackDescription: Petrifies enemies
+    mpCost: 45
+    spellPower: 0
+    hitRate: 96
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: Wind-element ineffectual
+    targeting: 110
+    flags: 1049218
+    element: 0
+    status12: 64
+    status34: 0
+-
+    esperAttackName: Chaos Wing
+    esperAttackDescription: Non-elemental attack
+    mpCost: 44
+    spellPower: 55
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Pearl-element ineffectual
+    targeting: 110
+    flags: 2097792
+    element: 0
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Sea Song
+    esperAttackDescription: Water-elemental attack
+    mpCost: 50
+    spellPower: 58
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Earth-element ineffectual
+    targeting: 110
+    flags: 2097792
+    element: 128
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Cat Rain
+    esperAttackDescription: Confuses enemies
+    mpCost: 28
+    spellPower: 0
+    hitRate: 128
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: Water-element ineffectual
+    targeting: 110
+    flags: 640
+    element: 0
+    status12: 8192
+    status34: 0
+-
+    esperAttackName: Sonic Dive
+    esperAttackDescription: Party members use a Jump\nattack
+    mpCost: 61
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 19
+    statusBlock: false
+    showMessage: false
+    attackMessage: \var1 GP was stolen!!
+    targeting: 46
+    flags: 2105968
+    element: 0
+    status12: 0
+    status34: 8192
+-
+    esperAttackName: Tri-Dazer
+    esperAttackDescription: Ice/Fire/Lightning 3-way attack
+    mpCost: 68
+    spellPower: 110
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Mastered a new dance!\key
+    targeting: 110
+    flags: 2097792
+    element: 7
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Atom Edge
+    esperAttackDescription: Slices through enemies
+    mpCost: 70
+    spellPower: 0
+    hitRate: 110
+    specialEffect: 35
+    statusBlock: true
+    showMessage: false
+    attackMessage: Can’t throw!!
+    targeting: 110
+    flags: 1049218
+    element: 0
+    status12: 128
+    status34: 0
+-
+    esperAttackName: True Edge
+    esperAttackDescription: Slices through enemies
+    mpCost: 80
+    spellPower: 0
+    hitRate: 140
+    specialEffect: 35
+    statusBlock: true
+    showMessage: false
+    attackMessage: Mastered a new technique!\key
+    targeting: 110
+    flags: 1049218
+    element: 0
+    status12: 128
+    status34: 0
+-
+    esperAttackName: Sun Flare
+    esperAttackDescription: Cuts through magic defenses
+    mpCost: 86
+    spellPower: 92
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Incorrect Blitz input!
+    targeting: 110
+    flags: 2097824
+    element: 0
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Justice
+    esperAttackDescription: Mystic purity attack
+    mpCost: 90
+    spellPower: 114
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: Ogre Nix was broken!
+    targeting: 110
+    flags: 2097792
+    element: 32
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Purifier
+    esperAttackDescription: Attack harms you and the\nenemy
+    mpCost: 96
+    spellPower: 190
+    hitRate: 0
+    specialEffect: 36
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 4
+    flags: 2097728
+    element: 0
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Metamorph
+    esperAttackDescription: Turns enemy into an Item
+    mpCost: 6
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 18
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2097792
+    element: 0
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Life Guard
+    esperAttackDescription: Gradually recovers HP
+    mpCost: 18
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2097672
+    element: 0
+    status12: 0
+    status34: 2
+-
+    esperAttackName: Wall
+    esperAttackDescription: Casts Shell on party
+    mpCost: 30
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2097664
+    element: 0
+    status12: 0
+    status34: 32
+-
+    esperAttackName: Ruby Power
+    esperAttackDescription: Casts Reflect on party
+    mpCost: 36
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2097664
+    element: 0
+    status12: 0
+    status34: 128
+-
+    esperAttackName: Fader
+    esperAttackDescription: Makes the party invisible
+    mpCost: 38
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2097664
+    element: 0
+    status12: 16
+    status34: 0
+-
+    esperAttackName: Reviver
+    esperAttackDescription: Recovers HP
+    mpCost: 40
+    spellPower: 18
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2163240
+    element: 0
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Earth Wall
+    esperAttackDescription: Protects the party
+    mpCost: 33
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 17
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2097664
+    element: 0
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Heal Horn
+    esperAttackDescription: Casts Remedy on the party
+    mpCost: 30
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2359808
+    element: 0
+    status12: 59461
+    status34: 20
+-
+    esperAttackName: Moon Song
+    esperAttackDescription: Makes multi. images of the\nparty
+    mpCost: 70
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2097664
+    element: 0
+    status12: 1024
+    status34: 0
+-
+    esperAttackName: Group Hug
+    esperAttackDescription: Recovers HP
+    mpCost: 74
+    spellPower: 34
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2163240
+    element: 0
+    status12: 0
+    status34: 0
+-
+    esperAttackName: Rebirth
+    esperAttackDescription: Recovers battle status
+    mpCost: 110
+    spellPower: 4
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 10813964
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: Fire Skean
+    attackName: Fire Skean
+    mpCost: 0
+    spellPower: 100
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2097664
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Water Edge
+    attackName: Water Edge
+    mpCost: 0
+    spellPower: 100
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2097664
+    element: 128
+    status12: 0
+    status34: 0
+-
+    miscName: Bolt Edge
+    attackName: Bolt Edge
+    mpCost: 0
+    spellPower: 100
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2097664
+    element: 4
+    status12: 0
+    status34: 0
+-
+    miscName: Storm
+    attackName: Storm
+    mpCost: 0
+    spellPower: 100
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2105872
+    element: 2
+    status12: 0
+    status34: 0
+-
+    miscName: Joker Doom
+    swdTechName: Dispatch
+    swdTechDescription: Single attack
+    swdTechLevel:
+        level: 1
+    attackName: Joker Doom
+    mpCost: 0
+    spellPower: 120
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105889
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: ''
+    swdTechName: Retort
+    swdTechDescription: Single counter attack
+    swdTechLevel:
+        level: 6
+    attackName: ''
+    mpCost: 0
+    spellPower: 56
+    hitRate: 0
+    specialEffect: 60
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105888
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: ''
+    swdTechName: Slash
+    swdTechDescription: Halves an enemy’s HP
+    swdTechLevel:
+        level: 12
+    attackName: ''
+    mpCost: 0
+    spellPower: 8
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 10494499
+    element: 0
+    status12: 16384
+    status34: 0
+-
+    miscName: ''
+    swdTechName: Quadra Slam
+    swdTechDescription: 4-stroke attack
+    swdTechLevel:
+        level: 15
+    attackName: ''
+    mpCost: 0
+    spellPower: 72
+    hitRate: 0
+    specialEffect: 50
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105857
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: ''
+    swdTechName: Empowerer
+    swdTechDescription: Absorbs an enemy’s HP/MP
+    swdTechLevel:
+        level: 24
+    attackName: ''
+    mpCost: 0
+    spellPower: 49
+    hitRate: 0
+    specialEffect: 54
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2269736
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: ''
+    swdTechName: Stunner
+    swdTechDescription: Multiple attack/casts “Stop”
+    swdTechLevel:
+        level: 34
+    attackName: ''
+    mpCost: 0
+    spellPower: 97
+    hitRate: 140
+    specialEffect: 63
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 122
+    flags: 2105936
+    element: 0
+    status12: 0
+    status34: 16
+-
+    miscName: ''
+    swdTechName: Quadra Slice
+    swdTechDescription: 4-stroke attack
+    swdTechLevel:
+        level: 44
+    attackName: ''
+    mpCost: 0
+    spellPower: 70
+    hitRate: 0
+    specialEffect: 50
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105889
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: ''
+    swdTechName: Cleave
+    swdTechDescription: Dices up enemies
+    swdTechLevel:
+        level: 70
+    attackName: ''
+    mpCost: 0
+    spellPower: 0
+    hitRate: 182
+    specialEffect: 35
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 122
+    flags: 8754
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: Pummel
+    attackName: Pummel
+    blitzDescription: Cuts through an enemy’s\ndefenses
+    blitzCode:
+        level: 1
+        length: 8
+        button1: 14
+        button2: 10
+        button3: 14
+        button4: 1
+        button5: 0
+        button6: 0
+        button7: 0
+        button8: 0
+        button9: 0
+        button10: 0
+        button11: 0
+    mpCost: 0
+    spellPower: 110
+    hitRate: 0
+    specialEffect: 0
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105889
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: AuraBolt
+    attackName: AuraBolt
+    blitzDescription: Mystical purity slams an enemy
+    blitzCode:
+        level: 6
+        length: 8
+        button1: 8
+        button2: 7
+        button3: 14
+        button4: 1
+        button5: 0
+        button6: 0
+        button7: 0
+        button8: 0
+        button9: 0
+        button10: 0
+        button11: 0
+    mpCost: 0
+    spellPower: 68
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105856
+    element: 32
+    status12: 0
+    status34: 0
+-
+    miscName: Suplex
+    attackName: Suplex
+    blitzDescription: Puts the drop on an enemy
+    blitzCode:
+        level: 10
+        length: 10
+        button1: 3
+        button2: 4
+        button3: 8
+        button4: 12
+        button5: 1
+        button6: 0
+        button7: 0
+        button8: 0
+        button9: 0
+        button10: 0
+        button11: 0
+    mpCost: 0
+    spellPower: 180
+    hitRate: 0
+    specialEffect: 48
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2105889
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Fire Dance
+    attackName: Fire Dance
+    blitzDescription: Fire-attack slams enemies
+    blitzCode:
+        level: 15
+        length: 12
+        button1: 14
+        button2: 7
+        button3: 8
+        button4: 9
+        button5: 10
+        button6: 1
+        button7: 0
+        button8: 0
+        button9: 0
+        button10: 0
+        button11: 0
+    mpCost: 0
+    spellPower: 42
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 122
+    flags: 2105936
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Mantra
+    attackName: Mantra
+    blitzDescription: Refreshes other party members
+    blitzCode:
+        level: 23
+        length: 14
+        button1: 6
+        button2: 5
+        button3: 6
+        button4: 5
+        button5: 3
+        button6: 4
+        button7: 1
+        button8: 0
+        button9: 0
+        button10: 0
+        button11: 0
+    mpCost: 0
+    spellPower: 1
+    hitRate: 0
+    specialEffect: 21
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2433592
+    element: 0
+    status12: 18437
+    status34: 0
+-
+    miscName: Air Blade
+    attackName: Air Blade
+    blitzDescription: Wind-attack slams enemies
+    blitzCode:
+        level: 30
+        length: 16
+        button1: 12
+        button2: 11
+        button3: 10
+        button4: 9
+        button5: 8
+        button6: 7
+        button7: 14
+        button8: 1
+        button9: 0
+        button10: 0
+        button11: 0
+    mpCost: 0
+    spellPower: 78
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 122
+    flags: 2105936
+    element: 16
+    status12: 0
+    status34: 0
+-
+    miscName: Spiraler
+    attackName: Spiraler
+    blitzDescription: Recovers party at own expense
+    blitzCode:
+        level: 42
+        length: 14
+        button1: 6
+        button2: 5
+        button3: 3
+        button4: 4
+        button5: 10
+        button6: 14
+        button7: 1
+        button8: 0
+        button9: 0
+        button10: 0
+        button11: 0
+    mpCost: 0
+    spellPower: 200
+    hitRate: 0
+    specialEffect: 22
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2425400
+    element: 0
+    status12: 63847
+    status34: 532
+-
+    miscName: Bum Rush
+    attackName: Bum Rush
+    blitzDescription: Strikes a mortal blow
+    blitzCode:
+        level: 70
+        length: 20
+        button1: 14
+        button2: 13
+        button3: 12
+        button4: 11
+        button5: 10
+        button6: 9
+        button7: 8
+        button8: 7
+        button9: 14
+        button10: 1
+        button11: 0
+    mpCost: 0
+    spellPower: 128
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105888
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Wind Slash
+    attackName: Wind Slash
+    mpCost: 0
+    spellPower: 48
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2097744
+    element: 16
+    status12: 0
+    status34: 0
+-
+    miscName: Sun Bath
+    attackName: Sun Bath
+    mpCost: 0
+    spellPower: 50
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2163256
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Rage
+    attackName: Rage
+    mpCost: 0
+    spellPower: 50
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2097744
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Harvester
+    attackName: Harvester
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2359824
+    element: 0
+    status12: 59461
+    status34: 20
+-
+    miscName: Sand Storm
+    attackName: Sand Storm
+    mpCost: 0
+    spellPower: 45
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 592
+    element: 16
+    status12: 0
+    status34: 0
+-
+    miscName: Antlion
+    attackName: Antlion
+    mpCost: 0
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 1057282
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: Elf Fire
+    attackName: Elf Fire
+    mpCost: 0
+    spellPower: 72
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105856
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Specter
+    attackName: Specter
+    mpCost: 0
+    spellPower: 0
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 8704
+    element: 0
+    status12: 8192
+    status34: 0
+-
+    miscName: Land Slide
+    attackName: Land Slide
+    mpCost: 0
+    spellPower: 65
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105888
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Sonic Boom
+    attackName: Sonic Boom
+    mpCost: 0
+    spellPower: 10
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 10494466
+    element: 0
+    status12: 16384
+    status34: 0
+-
+    miscName: El Nino
+    attackName: El Nino
+    mpCost: 0
+    spellPower: 61
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2097744
+    element: 128
+    status12: 0
+    status34: 0
+-
+    miscName: Plasma
+    attackName: Plasma
+    mpCost: 0
+    spellPower: 70
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105856
+    element: 4
+    status12: 0
+    status34: 0
+-
+    miscName: Snare
+    attackName: Snare
+    mpCost: 0
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 35
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 1057282
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: Cave In
+    attackName: Cave In
+    mpCost: 0
+    spellPower: 12
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 10494466
+    element: 0
+    status12: 16384
+    status34: 0
+-
+    miscName: Snowball
+    attackName: Snowball
+    mpCost: 0
+    spellPower: 8
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 10494466
+    element: 0
+    status12: 16384
+    status34: 0
+-
+    miscName: Surge
+    attackName: Surge
+    mpCost: 0
+    spellPower: 55
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2097744
+    element: 2
+    status12: 0
+    status34: 0
+-
+    miscName: Cokatrice
+    attackName: Cokatrice
+    mpCost: 0
+    spellPower: 50
+    hitRate: 96
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 8738
+    element: 0
+    status12: 64
+    status34: 0
+-
+    miscName: Wombat
+    attackName: Wombat
+    mpCost: 0
+    spellPower: 88
+    hitRate: 0
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105888
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Kitty
+    attackName: Kitty
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2097680
+    element: 0
+    status12: 0
+    status34: 8
+-
+    miscName: Tapir
+    attackName: Tapir
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 23
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2425360
+    element: 0
+    status12: 63847
+    status34: 20
+-
+    miscName: Whump
+    attackName: Whump
+    mpCost: 0
+    spellPower: 53
+    hitRate: 0
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105888
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Wild Bear
+    attackName: Wild Bear
+    mpCost: 0
+    spellPower: 100
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2425400
+    element: 0
+    status12: 63815
+    status34: 532
+-
+    miscName: Pois. Frog
+    attackName: Pois. Frog
+    mpCost: 0
+    spellPower: 56
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2105856
+    element: 8
+    status12: 4
+    status34: 0
+-
+    miscName: Ice Rabbit
+    attackName: Ice Rabbit
+    mpCost: 0
+    spellPower: 60
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2163256
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Bio Blast
+    attackName: Bio Blast
+    mpCost: 0
+    spellPower: 20
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 2106048
+    element: 8
+    status12: 4
+    status34: 0
+-
+    miscName: Flash
+    attackName: Flash
+    mpCost: 0
+    spellPower: 42
+    hitRate: 128
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 8896
+    element: 0
+    status12: 1
+    status34: 0
+-
+    miscName: Chocobop
+    attackName: Chocobop
+    mpCost: 0
+    spellPower: 36
+    hitRate: 0
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2097776
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: H-Bomb
+    attackName: H-Bomb
+    mpCost: 0
+    spellPower: 130
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2097680
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: 7-Flush
+    attackName: 7-Flush
+    mpCost: 0
+    spellPower: 84
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 126
+    flags: 2097680
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Megahit
+    attackName: Megahit
+    mpCost: 0
+    spellPower: 128
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2097664
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Fire Beam
+    attackName: Fire Beam
+    mpCost: 0
+    spellPower: 60
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105344
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Bolt Beam
+    attackName: Bolt Beam
+    mpCost: 0
+    spellPower: 62
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105344
+    element: 4
+    status12: 0
+    status34: 0
+-
+    miscName: Ice Beam
+    attackName: Ice Beam
+    mpCost: 0
+    spellPower: 61
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105344
+    element: 2
+    status12: 0
+    status34: 0
+-
+    miscName: Bio Blast
+    attackName: Bio Blast
+    mpCost: 0
+    spellPower: 60
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 2105920
+    element: 8
+    status12: 16388
+    status34: 0
+-
+    miscName: Heal Force
+    attackName: Heal Force
+    mpCost: 0
+    spellPower: 50
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 3
+    flags: 2163240
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Confuser
+    attackName: Confuser
+    mpCost: 0
+    spellPower: 0
+    hitRate: 128
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 8704
+    element: 0
+    status12: 8192
+    status34: 0
+-
+    miscName: X-fer
+    attackName: X-fer
+    mpCost: 0
+    spellPower: 0
+    hitRate: 120
+    specialEffect: 35
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 1049090
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: TekMissile
+    attackName: TekMissile
+    mpCost: 0
+    spellPower: 58
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105888
+    element: 0
+    status12: 16384
+    status34: 0
+-
+    miscName: Condemned
+    attackName: Condemned
+    loreDescription: Begins doom countdown
+    initialLore:
+        initialLore: false
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2098690
+    element: 0
+    status12: 256
+    status34: 0
+-
+    miscName: Roulette
+    attackName: Roulette
+    loreDescription: Begins doom roulette
+    initialLore:
+        initialLore: false
+    mpCost: 10
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 192
+    flags: 2106882
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: CleanSweep
+    attackName: CleanSweep
+    loreDescription: Water-elemental damage
+    initialLore:
+        initialLore: false
+    mpCost: 30
+    spellPower: 50
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 9792
+    element: 128
+    status12: 0
+    status34: 0
+-
+    miscName: Aqua Rake
+    attackName: Aqua Rake
+    loreDescription: Wind/Water elemental damage
+    initialLore:
+        initialLore: true
+    mpCost: 22
+    spellPower: 71
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 9728
+    element: 144
+    status12: 0
+    status34: 0
+-
+    miscName: Aero
+    attackName: Aero
+    loreDescription: Wind-elemental damage
+    initialLore:
+        initialLore: false
+    mpCost: 41
+    spellPower: 125
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 9728
+    element: 16
+    status12: 0
+    status34: 0
+-
+    miscName: Blow Fish
+    attackName: Blow Fish
+    loreDescription: 1000 damage
+    initialLore:
+        initialLore: false
+    mpCost: 50
+    spellPower: 1
+    hitRate: 0
+    specialEffect: 26
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106976
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Big Guard
+    attackName: Big Guard
+    loreDescription: Casts Shell/Safe on party
+    initialLore:
+        initialLore: false
+    mpCost: 80
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2098688
+    element: 0
+    status12: 0
+    status34: 96
+-
+    miscName: Revenge
+    attackName: Revenge
+    loreDescription: HP lowering attack
+    initialLore:
+        initialLore: true
+    mpCost: 31
+    spellPower: 1
+    hitRate: 0
+    specialEffect: 61
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106976
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Pearl Wind
+    attackName: Pearl Wind
+    loreDescription: Use own HP to help party
+    initialLore:
+        initialLore: false
+    mpCost: 45
+    spellPower: 1
+    hitRate: 0
+    specialEffect: 27
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 46
+    flags: 2164328
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: L.5 Doom
+    attackName: L.5 Doom
+    loreDescription: 'Casts “Doom” on LV5, 10, 15, …\nenemy'
+    initialLore:
+        initialLore: false
+    mpCost: 22
+    spellPower: 0
+    hitRate: 5
+    specialEffect: 255
+    statusBlock: true
+    showMessage: true
+    attackMessage: 'Casts “Doom” on LV5, 10,…person'
+    targeting: 110
+    flags: 4195842
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: L.4 Flare
+    attackName: L.4 Flare
+    loreDescription: 'Casts “Flare” on LV2, 4, 6, …\nenemy'
+    initialLore:
+        initialLore: false
+    mpCost: 42
+    spellPower: 66
+    hitRate: 4
+    specialEffect: 255
+    statusBlock: false
+    showMessage: true
+    attackMessage: 'Casts “Flare” on LV4, 8,…person'
+    targeting: 110
+    flags: 4195936
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: L.3 Muddle
+    attackName: L.3 Muddle
+    loreDescription: 'Casts “Muddle” on LV3, 6, 9, …\nenemy'
+    initialLore:
+        initialLore: false
+    mpCost: 28
+    spellPower: 0
+    hitRate: 3
+    specialEffect: 255
+    statusBlock: true
+    showMessage: true
+    attackMessage: 'Casts “Muddle” on LV3, 6,…person'
+    targeting: 110
+    flags: 4195840
+    element: 0
+    status12: 8192
+    status34: 0
+-
+    miscName: Reflect???
+    attackName: Reflect???
+    loreDescription: Status attack on wall-protected\nenemy
+    initialLore:
+        initialLore: false
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 28
+    statusBlock: true
+    showMessage: true
+    attackMessage: '???? on wall-protected person'
+    targeting: 110
+    flags: 2098688
+    element: 0
+    status12: 2049
+    status34: 4
+-
+    miscName: L? Pearl
+    attackName: L? Pearl
+    loreDescription: Pearl attack on LV ? enemy
+    initialLore:
+        initialLore: false
+    mpCost: 50
+    spellPower: 120
+    hitRate: 0
+    specialEffect: 29
+    statusBlock: false
+    showMessage: true
+    attackMessage: Pearl attack on level ? enemy
+    targeting: 110
+    flags: 4195840
+    element: 32
+    status12: 0
+    status34: 0
+-
+    miscName: Step Mine
+    attackName: Step Mine
+    loreDescription: 'Damage in proportion to # of\nsteps'
+    initialLore:
+        initialLore: false
+    mpCost: 1
+    spellPower: 32
+    hitRate: 0
+    specialEffect: 30
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2098720
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: ForceField
+    attackName: ForceField
+    loreDescription: Throws up anti-elemental\nbarrier
+    initialLore:
+        initialLore: false
+    mpCost: 24
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 49
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 4
+    flags: 2098688
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Dischord
+    attackName: Dischord
+    loreDescription: Cuts enemy’s level by 1/2
+    initialLore:
+        initialLore: false
+    mpCost: 68
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 31
+    statusBlock: false
+    showMessage: true
+    attackMessage: Level is halved
+    targeting: 67
+    flags: 9730
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Sour Mouth
+    attackName: Sour Mouth
+    loreDescription: Inflicts status ailment on an\nenemy
+    initialLore:
+        initialLore: false
+    mpCost: 32
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 9728
+    element: 0
+    status12: 43045
+    status34: 0
+-
+    miscName: Pep Up
+    attackName: Pep Up
+    loreDescription: Uses own HP to save the party
+    initialLore:
+        initialLore: false
+    mpCost: 1
+    spellPower: 16
+    hitRate: 0
+    specialEffect: 32
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 3
+    flags: 10839552
+    element: 0
+    status12: 64327
+    status34: 20
+-
+    miscName: Rippler
+    attackName: Rippler
+    loreDescription: Switches status with an enemy’s
+    initialLore:
+        initialLore: false
+    mpCost: 66
+    spellPower: 0
+    hitRate: 111
+    specialEffect: 33
+    statusBlock: true
+    showMessage: true
+    attackMessage: Status exchange
+    targeting: 67
+    flags: 9728
+    element: 0
+    status12: 64823
+    status34: 34046
+-
+    miscName: Stone
+    attackName: Stone
+    loreDescription: Damages and Muddles an enemy
+    initialLore:
+        initialLore: true
+    mpCost: 22
+    spellPower: 40
+    hitRate: 75
+    specialEffect: 34
+    statusBlock: false
+    showMessage: true
+    attackMessage: Be confused!
+    targeting: 99
+    flags: 9728
+    element: 0
+    status12: 8192
+    status34: 0
+-
+    miscName: Quasar
+    attackName: Quasar
+    loreDescription: Damage pierces enemies’\ndefenses
+    initialLore:
+        initialLore: false
+    mpCost: 50
+    spellPower: 57
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2098720
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: GrandTrain
+    attackName: GrandTrain
+    loreDescription: Mortal damage pierces enemies’\ndefenses
+    initialLore:
+        initialLore: false
+    mpCost: 64
+    spellPower: 84
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2098720
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Exploder
+    attackName: Exploder
+    loreDescription: Forfeit life to inflict mortal\ndamage
+    initialLore:
+        initialLore: false
+    mpCost: 1
+    spellPower: 1
+    hitRate: 0
+    specialEffect: 25
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2123296
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Imp Song
+    attackName: Imp Song
+    mpCost: 20
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: true
+    showMessage: true
+    attackMessage: Imp…ppp…IMP!!
+    targeting: 107
+    flags: 532992
+    element: 0
+    status12: 32
+    status34: 0
+-
+    miscName: Clear
+    attackName: Clear
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 69
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 2
+    flags: 2097664
+    element: 0
+    status12: 59685
+    status34: 16
+-
+    miscName: Virite
+    attackName: Virite
+    mpCost: 20
+    spellPower: 20
+    hitRate: 80
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8712
+    element: 8
+    status12: 4
+    status34: 0
+-
+    miscName: ChokeSmoke
+    attackName: ChokeSmoke
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: true
+    attackMessage: Revived as a zombie
+    targeting: 67
+    flags: 2105860
+    element: 0
+    status12: 2
+    status34: 0
+-
+    miscName: Schiller
+    attackName: Schiller
+    mpCost: 20
+    spellPower: 0
+    hitRate: 80
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 8704
+    element: 0
+    status12: 1
+    status34: 0
+-
+    miscName: Lullaby
+    attackName: Lullaby
+    mpCost: 20
+    spellPower: 0
+    hitRate: 90
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 8704
+    element: 0
+    status12: 32768
+    status34: 0
+-
+    miscName: Acid Rain
+    attackName: Acid Rain
+    mpCost: 20
+    spellPower: 25
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 8776
+    element: 136
+    status12: 16384
+    status34: 0
+-
+    miscName: Confusion
+    attackName: Confusion
+    mpCost: 20
+    spellPower: 0
+    hitRate: 68
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8704
+    element: 0
+    status12: 8192
+    status34: 0
+-
+    miscName: Megazerk
+    attackName: Megazerk
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2099712
+    element: 0
+    status12: 4096
+    status34: 0
+-
+    miscName: Mute
+    attackName: Mute
+    mpCost: 20
+    spellPower: 0
+    hitRate: 90
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8704
+    element: 0
+    status12: 2048
+    status34: 0
+-
+    miscName: Net
+    attackName: Net
+    mpCost: 20
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 8704
+    element: 0
+    status12: 0
+    status34: 16
+-
+    miscName: Slimer
+    attackName: Slimer
+    mpCost: 20
+    spellPower: 0
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 8704
+    element: 0
+    status12: 0
+    status34: 4
+-
+    miscName: Delta Hit
+    attackName: Delta Hit
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105856
+    element: 0
+    status12: 64
+    status34: 0
+-
+    miscName: Entwine
+    attackName: Entwine
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 4
+-
+    miscName: Blaster
+    attackName: Blaster
+    mpCost: 20
+    spellPower: 0
+    hitRate: 70
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 10754
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: Cyclonic
+    attackName: Cyclonic
+    mpCost: 20
+    spellPower: 15
+    hitRate: 75
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8397378
+    element: 0
+    status12: 512
+    status34: 0
+-
+    miscName: Fire Ball
+    attackName: Fire Ball
+    mpCost: 20
+    spellPower: 50
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8704
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Atomic Ray
+    attackName: Atomic Ray
+    mpCost: 20
+    spellPower: 80
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 10752
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Tek Laser
+    attackName: Tek Laser
+    mpCost: 20
+    spellPower: 20
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 10752
+    element: 4
+    status12: 0
+    status34: 0
+-
+    miscName: Diffuser
+    attackName: Diffuser
+    mpCost: 20
+    spellPower: 62
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 10752
+    element: 4
+    status12: 0
+    status34: 0
+-
+    miscName: WaveCannon
+    attackName: WaveCannon
+    mpCost: 20
+    spellPower: 110
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8704
+    element: 4
+    status12: 0
+    status34: 0
+-
+    miscName: Mega Volt
+    attackName: Mega Volt
+    mpCost: 20
+    spellPower: 20
+    hitRate: 150
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 99
+    flags: 10752
+    element: 4
+    status12: 0
+    status34: 0
+-
+    miscName: Giga Volt
+    attackName: Giga Volt
+    mpCost: 20
+    spellPower: 110
+    hitRate: 130
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 99
+    flags: 10752
+    element: 4
+    status12: 0
+    status34: 0
+-
+    miscName: Blizzard
+    attackName: Blizzard
+    mpCost: 20
+    spellPower: 25
+    hitRate: 140
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8704
+    element: 2
+    status12: 0
+    status34: 0
+-
+    miscName: Absolute 0
+    attackName: Absolute 0
+    mpCost: 20
+    spellPower: 110
+    hitRate: 140
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8704
+    element: 2
+    status12: 0
+    status34: 0
+-
+    miscName: Magnitude8
+    attackName: Magnitude8
+    mpCost: 20
+    spellPower: 100
+    hitRate: 130
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 8704
+    element: 64
+    status12: 0
+    status34: 0
+-
+    miscName: Raid
+    attackName: Raid
+    mpCost: 20
+    spellPower: 40
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 139784
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Flash Rain
+    attackName: Flash Rain
+    mpCost: 20
+    spellPower: 60
+    hitRate: 140
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8704
+    element: 130
+    status12: 0
+    status34: 0
+-
+    miscName: TekBarrier
+    attackName: TekBarrier
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 3
+    flags: 2105344
+    element: 0
+    status12: 0
+    status34: 192
+-
+    miscName: Fallen One
+    attackName: Fallen One
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 64
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: WallChange
+    attackName: WallChange
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 38
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 18
+    flags: 2097664
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Escape
+    attackName: Escape
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 39
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 2
+    flags: 2097664
+    element: 0
+    status12: 0
+    status34: 8192
+-
+    miscName: 50 Gs
+    attackName: 50 Gs
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2361856
+    element: 0
+    status12: 0
+    status34: 32768
+-
+    miscName: Mind Blast
+    attackName: Mind Blast
+    mpCost: 20
+    spellPower: 0
+    hitRate: 110
+    specialEffect: 40
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 512
+    element: 0
+    status12: 63847
+    status34: 20
+-
+    miscName: N. Cross
+    attackName: N. Cross
+    mpCost: 20
+    spellPower: 0
+    hitRate: 90
+    specialEffect: 41
+    statusBlock: true
+    showMessage: true
+    attackMessage: You’d best be frozen!
+    targeting: 110
+    flags: 2560
+    element: 2
+    status12: 0
+    status34: 512
+-
+    miscName: Flare Star
+    attackName: Flare Star
+    mpCost: 20
+    spellPower: 80
+    hitRate: 0
+    specialEffect: 42
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 2105952
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Love Token
+    attackName: Love Token
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 45
+    statusBlock: false
+    showMessage: true
+    attackMessage: Protect me!
+    targeting: 67
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Seize
+    attackName: Seize
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 46
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2359808
+    element: 0
+    status12: 0
+    status34: 4
+-
+    miscName: R.Polarity
+    attackName: R.Polarity
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 43
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Targetting
+    attackName: Targetting
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 47
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Sneeze
+    attackName: Sneeze
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 56
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 99
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 8192
+-
+    miscName: S. Cross
+    attackName: S. Cross
+    mpCost: 20
+    spellPower: 120
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8768
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Launcher
+    attackName: Launcher
+    mpCost: 20
+    spellPower: 8
+    hitRate: 100
+    specialEffect: 44
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 8397426
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Charm
+    attackName: Charm
+    mpCost: 20
+    spellPower: 0
+    hitRate: 80
+    specialEffect: 52
+    statusBlock: false
+    showMessage: true
+    attackMessage: Hit your friends ’till they drop!
+    targeting: 67
+    flags: 8704
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Cold Dust
+    attackName: Cold Dust
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: true
+    attackMessage: You’d best be frozen!
+    targeting: 67
+    flags: 2105856
+    element: 2
+    status12: 0
+    status34: 512
+-
+    miscName: Tentacle
+    attackName: Tentacle
+    mpCost: 0
+    spellPower: 146
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 106
+    flags: 2105857
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: HyperDrive
+    attackName: HyperDrive
+    mpCost: 0
+    spellPower: 118
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2107936
+    element: 0
+    status12: 16384
+    status34: 0
+-
+    miscName: Train
+    attackName: Train
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2105856
+    element: 0
+    status12: 2049
+    status34: 0
+-
+    miscName: Evil Toot
+    attackName: Evil Toot
+    mpCost: 20
+    spellPower: 0
+    hitRate: 120
+    specialEffect: 59
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 512
+    element: 0
+    status12: 28965
+    status34: 4
+-
+    miscName: Grav Bomb
+    attackName: Grav Bomb
+    mpCost: 20
+    spellPower: 8
+    hitRate: 100
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 9445906
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Engulf
+    attackName: Engulf
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 57
+    statusBlock: false
+    showMessage: true
+    attackMessage: 'Mmmm…munch, munch!'
+    targeting: 67
+    flags: 2097680
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Disaster
+    attackName: Disaster
+    mpCost: 20
+    spellPower: 0
+    hitRate: 62
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 99
+    flags: 10752
+    element: 0
+    status12: 10529
+    status34: 32768
+-
+    miscName: Shrapnel
+    attackName: Shrapnel
+    mpCost: 20
+    spellPower: 120
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 99
+    flags: 8704
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Bomblet
+    attackName: Bomblet
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Heart Burn
+    attackName: Heart Burn
+    mpCost: 20
+    spellPower: 30
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 99
+    flags: 8704
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Zinger
+    attackName: Zinger
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 58
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Discard
+    attackName: Discard
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 68
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2097664
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Overcast
+    attackName: Overcast
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 55
+    statusBlock: false
+    showMessage: true
+    attackMessage: This curse’ll follow you forever!
+    targeting: 110
+    flags: 2105858
+    element: 0
+    status12: 256
+    status34: 0
+-
+    miscName: Missile
+    attackName: Missile
+    mpCost: 20
+    spellPower: 4
+    hitRate: 126
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 8397314
+    element: 0
+    status12: 16384
+    status34: 0
+-
+    miscName: Goner
+    attackName: Goner
+    mpCost: 20
+    spellPower: 220
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Meteo
+    attackName: Meteo
+    mpCost: 20
+    spellPower: 60
+    hitRate: 80
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 107
+    flags: 8800
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Revenger
+    attackName: Revenger
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ww
+    targeting: 106
+    flags: 2368000
+    element: 0
+    status12: 1040
+    status34: 34026
+-
+    miscName: Phantasm
+    attackName: Phantasm
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 62
+    statusBlock: false
+    showMessage: true
+    attackMessage: Casts away your energy ’till……
+    targeting: 106
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Dread
+    attackName: Dread
+    mpCost: 20
+    spellPower: 0
+    hitRate: 75
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 8704
+    element: 0
+    status12: 64
+    status34: 0
+-
+    miscName: Shock Wave
+    attackName: Shock Wave
+    mpCost: 20
+    spellPower: 25
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 8704
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Blaze
+    attackName: Blaze
+    mpCost: 20
+    spellPower: 68
+    hitRate: 120
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 99
+    flags: 8704
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Soul Out
+    attackName: Soul Out
+    mpCost: 20
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: true
+    attackMessage: You’d best be a zombie!
+    targeting: 67
+    flags: 2105856
+    element: 0
+    status12: 2
+    status34: 0
+-
+    miscName: Gale Cut
+    attackName: Gale Cut
+    mpCost: 0
+    spellPower: 15
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2105856
+    element: 16
+    status12: 0
+    status34: 0
+-
+    miscName: Shimsham
+    attackName: Shimsham
+    mpCost: 20
+    spellPower: 8
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 10496514
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Lode Stone
+    attackName: Lode Stone
+    mpCost: 20
+    spellPower: 12
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 10494466
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Scar Beam
+    attackName: Scar Beam
+    mpCost: 20
+    spellPower: 28
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2107968
+    element: 32
+    status12: 0
+    status34: 0
+-
+    miscName: BabaBreath
+    attackName: BabaBreath
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 51
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105856
+    element: 0
+    status12: 0
+    status34: 8192
+-
+    miscName: Lifeshaver
+    attackName: Lifeshaver
+    mpCost: 20
+    spellPower: 84
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2236936
+    element: 64
+    status12: 0
+    status34: 0
+-
+    miscName: Fire Wall
+    attackName: Fire Wall
+    mpCost: 20
+    spellPower: 50
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2107904
+    element: 1
+    status12: 0
+    status34: 0
+-
+    miscName: Slide
+    attackName: Slide
+    mpCost: 20
+    spellPower: 75
+    hitRate: 0
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 110
+    flags: 2105856
+    element: 64
+    status12: 0
+    status34: 0
+-
+    miscName: Battle
+    attackName: Battle
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 8705
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Special
+    attackName: Special
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 8705
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Riot Blade
+    attackName: Riot Blade
+    mpCost: 0
+    spellPower: 142
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Mirager
+    attackName: Mirager
+    mpCost: 0
+    spellPower: 139
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Back Blade
+    attackName: Back Blade
+    mpCost: 0
+    spellPower: 140
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: ShadowFang
+    attackName: ShadowFang
+    mpCost: 0
+    spellPower: 140
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 16384
+    status34: 0
+-
+    miscName: RoyalShock
+    attackName: RoyalShock
+    mpCost: 0
+    spellPower: 143
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: TigerBreak
+    attackName: TigerBreak
+    mpCost: 0
+    spellPower: 140
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Spin Edge
+    attackName: Spin Edge
+    mpCost: 0
+    spellPower: 143
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: SabreSoul
+    attackName: SabreSoul
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105986
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: Star Prism
+    attackName: Star Prism
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: true
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2105986
+    element: 0
+    status12: 128
+    status34: 0
+-
+    miscName: Red Card
+    attackName: Red Card
+    mpCost: 0
+    spellPower: 147
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: MoogleRush
+    attackName: MoogleRush
+    mpCost: 0
+    spellPower: 150
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: X-Meteo
+    attackName: X-Meteo
+    mpCost: 0
+    spellPower: 146
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 67
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Takedown
+    attackName: Takedown
+    mpCost: 0
+    spellPower: 55
+    hitRate: 0
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Wild Fang
+    attackName: Wild Fang
+    mpCost: 0
+    spellPower: 66
+    hitRate: 0
+    specialEffect: 37
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 83
+    flags: 2106016
+    element: 0
+    status12: 0
+    status34: 0
+-
+    miscName: Lagomorph
+    attackName: Lagomorph
+    mpCost: 0
+    spellPower: 10
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 62
+    flags: 2425344
+    element: 0
+    status12: 32773
+    status34: 0
+-
+    miscName: '??????????'
+    attackName: '??????????'
+    mpCost: 0
+    spellPower: 0
+    hitRate: 0
+    specialEffect: 255
+    statusBlock: false
+    showMessage: false
+    attackMessage: ''
+    targeting: 0
+    flags: 0
+    element: 0
+    status12: 0
+    status34: 0

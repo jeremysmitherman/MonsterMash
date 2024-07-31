@@ -1,7 +1,7 @@
 package main
 
 import (
-	"MonsterMash/reference"
+	"MonsterMash/ff6library"
 	"embed"
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"
@@ -20,14 +20,14 @@ var itemData []byte
 //go:embed MetamorphSets.yml
 var morphData []byte
 
-//go:embed Encounters.yml
-var encounterData []byte
+//go:embed skillNames.yml
+var skillData []byte
 
 func main() {
 	// Create an instance of the app structure
-	app := NewApp()
-	library := reference.NewLibrary(itemData, monsterData, morphData, encounterData)
+	library := ff6library.NewLibrary(itemData, monsterData, morphData, skillData)
 	library.Start()
+	app := NewApp(library)
 
 	// Create application with options
 	err := wails.Run(&options.App{

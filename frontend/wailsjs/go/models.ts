@@ -1,4 +1,4 @@
-export namespace reference {
+export namespace ff6library {
 	
 	export class FlattenedEnemy {
 	    name: string;
@@ -24,7 +24,7 @@ export namespace reference {
 	    control2: string;
 	    control3: string;
 	    control4: string;
-	    rage: string;
+	    rage1: string;
 	    rage2: string;
 	    metamorphItems: string[];
 	    morphRate: string;
@@ -64,7 +64,7 @@ export namespace reference {
 	        this.control2 = source["control2"];
 	        this.control3 = source["control3"];
 	        this.control4 = source["control4"];
-	        this.rage = source["rage"];
+	        this.rage1 = source["rage1"];
 	        this.rage2 = source["rage2"];
 	        this.metamorphItems = source["metamorphItems"];
 	        this.morphRate = source["morphRate"];
@@ -75,38 +75,6 @@ export namespace reference {
 	        this.statusImmunity = source["statusImmunity"];
 	        this.flags = source["flags"];
 	    }
-	}
-	export class FlattenedEncounter {
-	    encounter_id: number;
-	    monsters: FlattenedEnemy[];
-	
-	    static createFrom(source: any = {}) {
-	        return new FlattenedEncounter(source);
-	    }
-	
-	    constructor(source: any = {}) {
-	        if ('string' === typeof source) source = JSON.parse(source);
-	        this.encounter_id = source["encounter_id"];
-	        this.monsters = this.convertValues(source["monsters"], FlattenedEnemy);
-	    }
-	
-		convertValues(a: any, classs: any, asMap: boolean = false): any {
-		    if (!a) {
-		        return a;
-		    }
-		    if (a.slice && a.map) {
-		        return (a as any[]).map(elem => this.convertValues(elem, classs));
-		    } else if ("object" === typeof a) {
-		        if (asMap) {
-		            for (const key of Object.keys(a)) {
-		                a[key] = new classs(a[key]);
-		            }
-		            return a;
-		        }
-		        return new classs(a);
-		    }
-		    return a;
-		}
 	}
 
 }
